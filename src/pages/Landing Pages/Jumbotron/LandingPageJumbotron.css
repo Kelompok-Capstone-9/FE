@@ -1,0 +1,116 @@
+body{
+    font-family: 'Josefin Sans' ;
+    max-width:  100%;
+}
+
+.jumbotron-left div h1{
+    color: var(--primary-500);
+    font-weight: bold;
+}
+
+.jumbotron-left div p{
+    color:var(--primary-900)
+}
+
+.jumbotron-right{
+    overflow:hidden;
+    width:'50%';
+    border-radius:0 0 0 30px;
+}
+
+.icon div img{
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.icon div h3{
+    color: var(--primary-600);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.icon div p{
+    color: var(--primary-900);
+    margin-top: -10px;
+}
+
+.icon div:hover{
+    border-radius: 10px;
+    background-color: var(--primary-100);
+    margin-top: -10px;
+}
+
+.reach{
+    background-color: var(--Neutral-White-200);
+    margin-bottom:50px;
+    overflow:hidden;
+}
+
+@media (max-width: 768px) { 
+    .t-3{
+        font-size: 18px;
+    }
+
+    .jumbotron-right img{
+        visibility: hidden;
+        margin-top: -500px;
+    }
+
+    .reach{
+        height: 300px;
+    }
+
+    .jumbotron-left div{
+        text-align: center;
+    }
+
+ }
+
+@media (min-width: 768px) and (max-width: 990px) { 
+    .reach{
+        height: 500px;
+    }
+}
+
+@media (min-width: 1260px) { 
+    .jumbotron-left div h1{
+        font-size:48px;
+        margin-top: 50px;
+    }
+    .jumbotron-left div p{
+        font-size:19px;
+        margin-top: 50px;
+    }
+
+    .jumbotron-right{
+        height:595px;
+    }
+
+    .jumbotron-right img{
+        width:150%;
+        margin:-70px 0 0 -180px;
+    }
+
+    .icon{        
+        justify-content: space-around !important;
+    }
+    .icon div {
+        width: 208px
+        /* margin-right: 50px;
+        margin-left: 50px; */
+    }
+    .icon div h3{
+        font-size: 40px;
+    }
+
+    .icon div p{
+        font-size: 32px;
+    }
+    .icon div img{
+        width: 120px;
+    }
+
+    .reach{
+        height:744px;
+    }
+}
