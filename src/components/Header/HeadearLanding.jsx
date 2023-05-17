@@ -1,21 +1,19 @@
-import { NavLink } from "react-bootstrap";
-import membership from "../assets/icons/membership.svg";
-import workOut from "../assets/icons/workout video.svg";
-import topnews from "../assets/icons/top news.svg";
-import offlineclass from "../assets/icons/offline class.svg";
-import onlineclass from "../assets/icons/online class.svg";
-import facilities from "../assets/icons/facilities.svg";
-import expandmore from "../assets/icons/expand_more.svg";
+import membership from "../../assets/icons/membership.svg";
+import workOut from "../../assets/icons/workout video.svg";
+import topnews from "../../assets/icons/top news.svg";
+import offlineclass from "../../assets/icons/offline class.svg";
+import onlineclass from "../../assets/icons/online class.svg";
+import facilities from "../../assets/icons/facilities.svg";
+import expandmore from "../../assets/icons/expand_more.svg";
 import CardHeader from "./CardHeader";
-import { useState } from "react";
+import "./HeadearLanding.css";
 const HeaderLanding = () => {
-  const [buttonOnClick, setButtonOnClick] = useState(false);
   return (
     <>
       <header className="d-flex flex-wrap justify-content-center py-3 mb-4 shadow sticky-top">
         <div className="container">
           <div className="row w-100">
-            <div className="col-7 text-start ">
+            <div className="col-9 text-start ">
               <a
                 href="/"
                 className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -40,9 +38,8 @@ const HeaderLanding = () => {
                           //     setButtonOnClick(!buttonOnClick);
                           //   }}
                           type="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          Pages{" "}
+                          data-bs-toggle="dropdown">
+                          Pages
                           <img
                             className="ms-3"
                             src={expandmore}

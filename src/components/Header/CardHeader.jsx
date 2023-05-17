@@ -1,5 +1,5 @@
 import { NavLink } from "react-bootstrap";
-
+import "./HeadearLanding.css";
 const CardHeader = ({ icon, header, paragraph, destination }) => {
   return (
     <>

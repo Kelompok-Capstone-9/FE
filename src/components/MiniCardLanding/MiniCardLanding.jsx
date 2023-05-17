@@ -1,3 +1,5 @@
+import "./MiniCardLanding.css";
+
 const MiniCardLanding = () => {
   return (
     <>
