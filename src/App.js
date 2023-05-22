@@ -31,7 +31,9 @@ function App() {
     <div style={{backgroundColor:'var(--Neutral-White-100)'}}>
       <HeaderLanding/>
       <LandingPageJumbotron/>
-      <MiniCardLanding/>
+      <div className="mb-5">
+        <MiniCardLanding/>
+      </div>
       <DownloadApp/>
       <div style={{marginTop:'20vh'}}>
         <FooterLanding/>
