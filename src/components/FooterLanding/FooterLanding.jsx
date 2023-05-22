@@ -1,7 +1,7 @@
 const FooterLanding = () => {
   return (
     <>
-      <footer className="py-5 fixed-bottom text-center">
+      <footer className="py-5 text-center">
         <div className="row">
           <div className="col-12">
             <p className="fs-1 fw-bolder">Logo</p>
