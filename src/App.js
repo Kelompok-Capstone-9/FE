@@ -10,28 +10,15 @@ import HeaderLanding from "./components/Header/HeadearLanding";
 import CardHeader from "./components/Header/CardHeader";
 import MiniCardLanding from "./components/MiniCardLanding/MiniCardLanding";
 import bg from './assets/icons/Category.svg'
+import TestimoniCarousel from "./pages/Landing Pages/TestimoniCarousel/TestimoniCarousel";
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer">
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
     <div style={{backgroundColor:'var(--Neutral-White-100)'}}>
       <HeaderLanding/>
       <LandingPageJumbotron/>
-      <div className="mb-5">
+      <TestimoniCarousel/>
+      <div className="mb-5 mt-5">
         <MiniCardLanding/>
       </div>
       <DownloadApp/>
