@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const CardLandingPage = ({imageUrl, title, alt, id}) => {
   return (
     <div>
-      <div className="card bg-danger text-white" id={id}>
+      <div className="card section-card bg-danger text-white" id={id}>
         <img
           src={imageUrl}
           className={"card-img"}

@@ -9,21 +9,25 @@ import FooterLanding from "./components/FooterLanding/FooterLanding";
 import HeaderLanding from "./components/Header/HeadearLanding";
 import CardHeader from "./components/Header/CardHeader";
 import MiniCardLanding from "./components/MiniCardLanding/MiniCardLanding";
-import bg from './assets/icons/Category.svg'
+import bg from "./assets/icons/Category.svg";
 import TestimoniCarousel from "./pages/Landing Pages/TestimoniCarousel/TestimoniCarousel";
+import Section3LandingPage from "./pages/Landing Pages/Section3LandingPage/Section3LandingPage";
 
 function App() {
   return (
-    <div style={{backgroundColor:'var(--Neutral-White-100)'}}>
-      <HeaderLanding/>
-      <LandingPageJumbotron/>
-      <TestimoniCarousel/>
+    <div style={{ backgroundColor: "var(--Neutral-White-100)" }}>
+      <HeaderLanding />
+      <LandingPageJumbotron />
+      <Section3LandingPage />
       <div className="mb-5 mt-5">
-        <MiniCardLanding/>
+        <TestimoniCarousel />
       </div>
-      <DownloadApp/>
-      <div style={{marginTop:'20vh'}}>
-        <FooterLanding/>
+      <div className="mb-5 mt-5">
+        <MiniCardLanding />
+      </div>
+      <DownloadApp />
+      <div style={{ marginTop: "20vh" }}>
+        <FooterLanding />
       </div>
     </div>
   );
