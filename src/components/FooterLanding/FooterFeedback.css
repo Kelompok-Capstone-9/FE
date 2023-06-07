@@ -1,0 +1,17 @@
+.socialmedia-icn {
+    margin-top: 4px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.socialmedia-icn img {
+    width: 47px;
+    height: 47px;
+}
+
+.socialmedia-icn img:hover {
+    transform: translateY(-4px);
+    transition: 0.4s;
+}
+
