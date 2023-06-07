@@ -1,4 +1,5 @@
 .feedback-comment {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -16,6 +17,10 @@
 
     box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1);
     border-radius: 10px;
+}
+
+.feedback-text {
+    margin-top: 25px;
 }
 
 .input-text {
@@ -39,4 +44,41 @@
 
     border: 1px solid #606060;
     border-radius: 10px;
+}
+
+.feedback-checkbox {
+    margin-top: 20px;
+}
+
+.form-feedback-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.popup {
+    position: absolute;
+    width: 434px;
+    height: 265px;
+
+    background: #F6F6F6;
+    box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+    border-radius: 20px;
+    padding: 20px 40px;
+    gap: 40px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.popup-content {
+    background-color: #F6F6F6;
+    padding: 20px;
+    text-align: center;
 }

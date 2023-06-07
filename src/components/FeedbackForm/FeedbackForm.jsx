@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import './FeedbackForm.css'
+import "./FeedbackForm.css";
 
 const FeedbackForm = () => {
   const [isChecked, setIsChecked] = useState(false);
-  const [comments, setComments] = useState('');
+  const [comments, setComments] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
 
   const handleCheckboxChange = () => {
     setIsChecked((prevValue) => !prevValue);
@@ -16,17 +17,33 @@ const FeedbackForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Here, you can perform any actions with the feedback data
-    console.log('Selected items:', isChecked);
-    console.log('Comments:', comments);
+    console.log("Selected items:", isChecked);
+    console.log("Comments:", comments);
+    setShowPopup(true);
     // Reset the form after submission
     setIsChecked(false);
+    setComments("");
+    setTimeout(() => {
+      setShowPopup(false); // Close the popup after 5 seconds
+    }, 3000);
+  };
+
+  const handleCancel = () => {
     setComments('');
+    setIsChecked(false);
+  };
+
+  const closePopup = () => {
+    setShowPopup(true);
+    setTimeout(() => {
+      setShowPopup(false); // Close the popup after 5 seconds
+    }, 3000);
   };
 
   return (
     <div className="container feedback-comment">
       <form onSubmit={handleSubmit}>
-      <div>
+        <div className="feedback-text">
           <label>
             <input
               type="text"
@@ -37,7 +54,7 @@ const FeedbackForm = () => {
             />
           </label>
         </div>
-        <div>
+        <div className="feedback-checkbox">
           <label>
             <input
               type="checkbox"
@@ -48,8 +65,38 @@ const FeedbackForm = () => {
             Leave review as anonymous
           </label>
         </div>
-        <button type="submit">Submit</button>
+        <div className="form-feedback-btn">
+          <button
+          type="button"
+          onClick={handleCancel}
+            className="btn pe-lg-4 ps-lg-4 me-3"
+            style={{
+              color: "var(--primary-500)",
+              borderColor: "var(--primary-500)",
+            }}
+          >
+            Cancel
+          </button>
+          <button
+            type="submit"
+            className="btn ps-lg-5 pe-lg-5"
+            style={{
+              backgroundColor: "var(--primary-500)",
+              color: "var(--primary-100)",
+            }}
+          >
+            Send
+          </button>
+        </div>
       </form>
+      {showPopup && (
+        <div className="popup">
+          <div className="popup-content">
+            <h3>Thank you for supporting us</h3>
+            <p>Your feedback will be forwarded to the admin</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
