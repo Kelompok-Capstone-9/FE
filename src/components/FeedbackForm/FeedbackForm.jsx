@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./FeedbackForm.css";
+import succeslogo from "../../assets/icons/successfeedback.svg"
 
 const FeedbackForm = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -24,20 +25,13 @@ const FeedbackForm = () => {
     setIsChecked(false);
     setComments("");
     setTimeout(() => {
-      setShowPopup(false); // Close the popup after 5 seconds
+      setShowPopup(false);
     }, 3000);
   };
 
   const handleCancel = () => {
     setComments('');
     setIsChecked(false);
-  };
-
-  const closePopup = () => {
-    setShowPopup(true);
-    setTimeout(() => {
-      setShowPopup(false); // Close the popup after 5 seconds
-    }, 3000);
   };
 
   return (
@@ -92,6 +86,7 @@ const FeedbackForm = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
+            <img src={succeslogo} alt="" />
             <h3>Thank you for supporting us</h3>
             <p>Your feedback will be forwarded to the admin</p>
           </div>

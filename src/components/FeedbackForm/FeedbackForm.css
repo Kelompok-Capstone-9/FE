@@ -79,6 +79,12 @@
 
 .popup-content {
     background-color: #F6F6F6;
+    gap: 40px;
     padding: 20px;
+    border-radius: 20px;
     text-align: center;
+}
+
+.popup-content img {
+    margin-bottom: 10px;
 }
