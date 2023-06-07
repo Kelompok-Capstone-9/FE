@@ -7,6 +7,7 @@ import facilities from "../../assets/icons/facilities.svg";
 import expandmore from "../../assets/icons/expand_more.svg";
 import CardHeader from "./CardHeader";
 import "./HeadearLanding.css";
+import { NavLink } from "react-router-dom";
 const HeaderLanding = () => {
   return (
     <>
@@ -16,8 +17,9 @@ const HeaderLanding = () => {
             <div className="col-9 text-start ">
               <a
                 href="/"
-                className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <span className="fs-4 fw-bolder ">Logo</span>
+                className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+              >
+                <span className="fs-4 fw-bolder logoname">GoFit</span>
               </a>
             </div>
             <div className="col-3">
@@ -38,7 +40,8 @@ const HeaderLanding = () => {
                           //     setButtonOnClick(!buttonOnClick);
                           //   }}
                           type="button"
-                          data-bs-toggle="dropdown">
+                          data-bs-toggle="dropdown"
+                        >
                           Pages
                           <img
                             className="ms-3"
@@ -158,14 +161,17 @@ const HeaderLanding = () => {
                   </div>
                   <div className="col-6">
                     {/* <NavLink> */}
-                    <li className="nav-item link-dark ">
-                      <button
-                        className="buttonHeader fw-semibold"
-                        type="button"
-                        aria-expanded="false">
-                        Support
-                      </button>
-                    </li>
+                    <NavLink to="/support">
+                      <li className="nav-item link-dark ">
+                        <button
+                          className="buttonHeader fw-semibold"
+                          type="button"
+                          aria-expanded="false"
+                        >
+                          Support
+                        </button>
+                      </li>
+                    </NavLink>
                     {/* </NavLink> */}
                   </div>
                 </div>

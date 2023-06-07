@@ -1,9 +1,11 @@
 .cardHeader {
   background-color: var(--Neutral-White-0);
 }
+
 .cardHeader:hover {
   background-color: var(--primary-200);
 }
+
 .cardHeader:active {
   background-color: var(--primary-400);
 }
@@ -15,10 +17,23 @@
   padding: 0.5vw;
   border-radius: 8px;
 }
+
 .buttonHeader:hover {
   background-color: var(--primary-100);
 }
 
 .buttonHeader:active {
   background-color: var(--primary-400);
+}
+
+.logoname {
+  width: 156px;
+  height: 24px;
+
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--primary-600);
 }
