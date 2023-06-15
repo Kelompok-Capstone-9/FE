@@ -7,23 +7,16 @@ const SupportSection2 = () => {
     <>
       <div
         className="row m-0"
-        style={{ backgroundColor: "var(--Neutral-White-100)" }}
-      >
-        <div className="row d-flex justify-content-between p-0 mb-4">
-          <div className="col-12 col-md-6 d-flex justify-content-end">
-            {/* <img src={supportadmin} alt="" /> */}
-          </div>
-
-          <div
-            className="col-12 col-md-6 p-0 d-flex jumbotron-left"
-            style={{ paddingRight: "75px" }}
-          >
-            <img src={supportadmin} alt="" />
-          </div>
+        style={{ backgroundColor: "var(--Neutral-White-100)" }}>
+        <div className="d-none d-lg-flex col col-lg-10  align-items-center justify-content-end ">
+          <img src={supportadmin} alt="" />
+        </div>
+        <div className="d-flex d-lg-none col col-lg-12  justify-content-end">
+          <img src={supportadmin} alt="" style={{ width: "100vw" }} />
         </div>
 
         <div className="row d-flex container justify-content-between">
-            <FeedbackForm/>
+          <FeedbackForm />
         </div>
       </div>
     </>

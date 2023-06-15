@@ -7,7 +7,7 @@ import TestimoniCarousel from "./TestimoniCarousel/TestimoniCarousel";
 import Section3LandingPage from "./Section3LandingPage/Section3LandingPage";
 const MainLanding = () => {
   return (
-    <div style={{ backgroundColor: "var(--Neutral-White-100)" }}>
+    <>
       <LandingPageJumbotron />
       <Section3LandingPage />
       <div className="mb-5 mt-5">
@@ -20,7 +20,7 @@ const MainLanding = () => {
       <div style={{ marginTop: "20vh" }}>
         <FooterLanding />
       </div>
-    </div>
+    </>
   );
 };
 

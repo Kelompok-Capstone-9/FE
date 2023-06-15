@@ -7,7 +7,7 @@ import facilities from "../../assets/icons/facilities.svg";
 import expandmore from "../../assets/icons/expand_more.svg";
 import CardHeader from "./CardHeader";
 import "./HeadearLanding.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderLanding = ({ logoButton }) => {
   return (
@@ -27,14 +27,6 @@ const HeaderLanding = ({ logoButton }) => {
                       <div className="btn-group">
                         <button
                           className="buttonHeader w-100 fw-semibold d-flex"
-                          //   style={{
-                          //     backgroundColor: buttonOnClick
-                          //       ? "#ffa83f"
-                          //       : "transparent",
-                          //   }}
-                          //   onClick={() => {
-                          //     setButtonOnClick(!buttonOnClick);
-                          //   }}
                           type="button"
                           data-bs-toggle="dropdown">
                           <div className="row">
@@ -44,7 +36,7 @@ const HeaderLanding = ({ logoButton }) => {
                             <img
                               className="ms-3"
                               src={expandmore}
-                              alt=""
+                              alt="down arrow"
                               width={"11vw"}
                             />
                           </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./FeedbackForm.css";
-import succeslogo from "../../assets/icons/successfeedback.svg"
+import succeslogo from "../../assets/icons/successfeedback.svg";
 
 const FeedbackForm = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -30,7 +30,7 @@ const FeedbackForm = () => {
   };
 
   const handleCancel = () => {
-    setComments('');
+    setComments("");
     setIsChecked(false);
   };
 
@@ -44,7 +44,7 @@ const FeedbackForm = () => {
               value={comments}
               onChange={handleCommentsChange}
               placeholder="What's your feedback and suggestions?"
-              className="input-text"
+              className="input-text "
             />
           </label>
         </div>
@@ -61,14 +61,13 @@ const FeedbackForm = () => {
         </div>
         <div className="form-feedback-btn">
           <button
-          type="button"
-          onClick={handleCancel}
+            type="button"
+            onClick={handleCancel}
             className="btn pe-lg-4 ps-lg-4 me-3"
             style={{
               color: "var(--primary-500)",
               borderColor: "var(--primary-500)",
-            }}
-          >
+            }}>
             Cancel
           </button>
           <button
@@ -77,8 +76,7 @@ const FeedbackForm = () => {
             style={{
               backgroundColor: "var(--primary-500)",
               color: "var(--primary-100)",
-            }}
-          >
+            }}>
             Send
           </button>
         </div>
