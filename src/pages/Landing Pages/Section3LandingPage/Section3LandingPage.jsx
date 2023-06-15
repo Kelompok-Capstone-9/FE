@@ -1,6 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Section3LandingPage.css";
+// import cardIMG1 from "../../../assets/img/woman-1730325 1.svg";
+// import cardIMG2 from "../../../assets/img/fitness-1948837 1.svg";
+// import cardIMG3 from "../../../assets/img/full-shot-man-doing-yoga-mat 1.svg";
+// import cardIMG4 from "../../../assets/img/wellness-health-lifestyle-workout-graphic-word 1.svg";
+// import cardIMG5 from "../../../assets/img/close-up-treadmill-console-with-settings 1.svg";
+// import cardIMG6 from "../../../assets/img/fitness-woman-doing-yoga-with-mobile-app 1.svg";
 
 import CardLandingPage from "../../../components/Card/CardLandingPage";
 
@@ -69,7 +75,9 @@ const Section3LandingPage = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 padding-between6">
             <CardLandingPage
               id={"card-landingpage-6"}
-              imageUrl={""}
+              imageUrl={
+                "https://firebasestorage.googleapis.com/v0/b/example-marketplace-d0f64.appspot.com/o/files%2Ffitness-woman-doing-yoga-with-mobile-app%201.svg?alt=media&token=acb48ef4-aed9-4946-a656-adb9bd6d36db"
+              }
               title={"Work Out Video"}
               alt={"Card Work Out Video"}
             />
