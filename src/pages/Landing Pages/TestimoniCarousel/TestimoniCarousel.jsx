@@ -5,8 +5,8 @@ import '../TestimoniCarousel/TestimoniCarousel.css'
 const TestimoniCarousel = () => {
     return (
         <>
-            <h3>What do they say about GoFit's program?</h3>
-            <div className="testimoni">
+            <h3 className='textTestimoni'>What do they say about GoFit's program?</h3>
+            <div className="testimoni" id='testimoni'>
                 <div id="carouselIndicators" className="carousel slide">
                     <div className="carousel-indicators">
                         <button
