@@ -13,7 +13,6 @@
 .buttonHeader {
   background-color: transparent;
   border: none;
-  width: 7vw;
   padding: 0.5vw;
   border-radius: 8px;
 }
@@ -26,14 +25,31 @@
   background-color: var(--primary-400);
 }
 
-.logoname {
-  width: 156px;
-  height: 24px;
 
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 24px;
-  color: var(--primary-600);
+
+
+.dropdownHeader {
+  width: 35vw;
 }
+/* @media (min-width: 576px) {
+  .buttonHeader {
+    background-color: transparent;
+    border: none;
+    width: 50vw;
+    padding: 0.5vw;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+} */
+
