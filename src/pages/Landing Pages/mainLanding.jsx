@@ -44,4 +44,6 @@ const MainLanding = () => {
   );
 };
 
+
 export default MainLanding;
+
