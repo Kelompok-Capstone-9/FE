@@ -1,5 +1,6 @@
 import React from "react";
 import animatedsupport from "../../../assets/gif/Animation.svg";
+import './SupportSection1.css'
 
 const SupportSection1 = () => {
   return (
@@ -22,7 +23,7 @@ const SupportSection1 = () => {
             </div>
           </div>
 
-          <div className="col-md-6 p-0 jumbotron-right">
+          <div className="col-md-6 p-0 jumbotron-right jumbo-hover">
             <img src={animatedsupport} alt="" />
           </div>
         </div>
