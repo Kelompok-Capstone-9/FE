@@ -7,9 +7,9 @@ import facilities from "../../assets/icons/facilities.svg";
 import expandmore from "../../assets/icons/expand_more.svg";
 import CardHeader from "./CardHeader";
 import "./HeadearLanding.css";
+import { Link, NavLink } from "react-router-dom";
 
 const HeaderLanding = ({ logoButton }) => {
-
   return (
     <>
       <header
@@ -17,10 +17,8 @@ const HeaderLanding = ({ logoButton }) => {
         style={{ height: "12vh", backgroundColor: "var(--Neutral-White-100)" }}>
         <div className="container">
           <div className="row w-100">
-
             <div className="col-3 col-lg-1 text-start ">{logoButton}</div>
             <div className="col-8 col-lg-11 d-flex align-items-center justify-content-end">
-
               <ul className="nav nav-pills">
                 <div className="row gx-lg-5">
                   <div className="col-6 col-lg-6 pe-lg-5">
@@ -38,7 +36,6 @@ const HeaderLanding = ({ logoButton }) => {
                           //     setButtonOnClick(!buttonOnClick);
                           //   }}
                           type="button"
-
                           data-bs-toggle="dropdown">
                           <div className="row">
                             <div className="col-6">Pages</div>
@@ -51,7 +48,6 @@ const HeaderLanding = ({ logoButton }) => {
                               width={"11vw"}
                             />
                           </div>
-
                         </button>
                         <ul className="dropdown-menu pt-2 shadow">
                           <li className="dropdownHeader">
@@ -163,18 +159,16 @@ const HeaderLanding = ({ logoButton }) => {
                     </li>
                   </div>
                   <div className="col-6 col-lg-6 pb-3 p-lg-0">
-                    {/* <NavLink> */}
-
                     <li className="nav-item link-dark ">
-                      <button
-                        className="buttonHeader fw-semibold w-100"
-                        type="button"
-                        aria-expanded="false">
-                        Support
-                      </button>
+                      <Link to={"/feedback"}>
+                        <button
+                          className="buttonHeader fw-semibold w-100 text-decoration-none"
+                          type="button"
+                          aria-expanded="false">
+                          Support
+                        </button>
+                      </Link>
                     </li>
-
-                    {/* </NavLink> */}
                   </div>
                 </div>
               </ul>
