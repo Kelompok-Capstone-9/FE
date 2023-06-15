@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
@@ -8,7 +7,6 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import FeedbackPages from "./pages/Feedback Pages/FeedbackPages";
 import { Link, animateScroll as scroll } from "react-scroll";
 import HeaderLanding from "./components/Header/HeadearLanding";
-import { useEffect } from "react";
 function App() {
   const navigate = useNavigate();
   const onClick = () => {
