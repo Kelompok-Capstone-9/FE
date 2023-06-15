@@ -1,4 +1,4 @@
-h3 {
+.textTestimoni {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
@@ -9,25 +9,21 @@ h3 {
 .testimoni {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
 }
 
 .cards-wrapper {
     display: flex;
     justify-content: center;
-    width: 1000px;
+    width: 100%;
     display: flex;
-    padding: 50px;
-    position: relative;
+    padding: 10%;
 }
 
 .cards-wrapper .card {
     position: relative;
-    z-index: 1;
     margin: 0 .5em;
-    width: calc(100%/3);
-    width: 200px;
-    height: 198px;
+    width: 30vw;
+    height: 40vh;
     border-radius: 20px;
 }
 
@@ -39,14 +35,13 @@ h3 {
     height: 70px;
     left: 50%;
     transform: translateX(-50%);
-    top: -35px;
+    top: -15%;
     z-index: 2;
     overflow: visible;
 }
 
 .image-testimoni img {
     border-radius: 50%;
-    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -72,8 +67,8 @@ h3 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: 10%;
     border-radius: 50%;
     background-color: var(--Neutral-White-500);
 }
@@ -84,12 +79,12 @@ h3 {
 }
 
 .carousel-control-prev {
-    padding-right: 80px;
+    padding-right: 10px;
     color: black;
 }
 
 .carousel-control-next {
-    padding-left: 50px;
+    padding-left: 10px;
     color: black;
 }
 
