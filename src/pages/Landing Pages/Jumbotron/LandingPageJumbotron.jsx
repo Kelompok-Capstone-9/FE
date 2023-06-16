@@ -55,7 +55,7 @@ const LandingPageJumbotron = () => {
           <div className="col-md-6 p-0 jumbotron-right">
             <img
               src={
-                "https://firebasestorage.googleapis.com/v0/b/example-marketplace-d0f64.appspot.com/o/files%2Fgif-1.gif?alt=media&token=01a9dfd9-4815-4bd1-aae9-324e1734d93a"
+                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/gif-1.gif?alt=media&token=f371325e-ebb6-4743-8114-fda3bb17b639"
               }
               alt="gif 1"
             />
@@ -98,7 +98,7 @@ const LandingPageJumbotron = () => {
           </h3>
           <img
             src={
-              "https://firebasestorage.googleapis.com/v0/b/example-marketplace-d0f64.appspot.com/o/files%2Fgif-2.gif?alt=media&token=13f562bf-0e8d-4413-a5be-08564120c275"
+              "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/gif-2.gif?alt=media&token=ef971e99-737d-4af6-9da4-50a947c7af95"
             }
             alt="gif2"
             style={{ width: "100%" }}
