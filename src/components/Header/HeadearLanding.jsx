@@ -7,48 +7,42 @@ import facilities from "../../assets/icons/facilities.svg";
 import expandmore from "../../assets/icons/expand_more.svg";
 import CardHeader from "./CardHeader";
 import "./HeadearLanding.css";
-const HeaderLanding = () => {
+import { Link } from "react-router-dom";
+
+const HeaderLanding = ({ logoButton }) => {
   return (
     <>
-      <header className="d-flex flex-wrap justify-content-center py-3 mb-4 shadow sticky-top">
+      <header
+        className="d-flex flex-wrap justify-content-center py-3 mb-4 shadow sticky-top"
+        style={{ height: "12vh", backgroundColor: "var(--Neutral-White-100)" }}>
         <div className="container">
           <div className="row w-100">
-            <div className="col-9 text-start ">
-              <a
-                href="/"
-                className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <span className="fs-4 fw-bolder ">Logo</span>
-              </a>
-            </div>
-            <div className="col-3">
+            <div className="col-3 col-lg-1 text-start ">{logoButton}</div>
+            <div className="col-8 col-lg-11 d-flex align-items-center justify-content-end">
               <ul className="nav nav-pills">
-                <div className="row">
-                  <div className="col-6">
-                    <li className="nav-item">
+                <div className="row gx-lg-5">
+                  <div className="col-6 col-lg-6 pe-lg-5">
+                    <li className="nav-item ">
                       {/* dropdown */}
                       <div className="btn-group">
                         <button
-                          className="buttonHeader fw-semibold"
-                          //   style={{
-                          //     backgroundColor: buttonOnClick
-                          //       ? "#ffa83f"
-                          //       : "transparent",
-                          //   }}
-                          //   onClick={() => {
-                          //     setButtonOnClick(!buttonOnClick);
-                          //   }}
+                          className="buttonHeader w-100 fw-semibold d-flex"
                           type="button"
                           data-bs-toggle="dropdown">
-                          Pages
-                          <img
-                            className="ms-3"
-                            src={expandmore}
-                            alt=""
-                            width={"11vw"}
-                          />
+                          <div className="row">
+                            <div className="col-6">Pages</div>
+                          </div>
+                          <div className="col-6">
+                            <img
+                              className="ms-3"
+                              src={expandmore}
+                              alt="down arrow"
+                              width={"11vw"}
+                            />
+                          </div>
                         </button>
                         <ul className="dropdown-menu pt-2 shadow">
-                          <li style={{ width: "35vw" }}>
+                          <li className="dropdownHeader">
                             <div className="">
                               <div className="row">
                                 <div className="col-12">
@@ -87,7 +81,7 @@ const HeaderLanding = () => {
                                 </div>
                                 <div className="col-12">
                                   <div className="row">
-                                    <div className="col-6">
+                                    <div className="col-12 col-lg-6">
                                       <CardHeader
                                         icon={
                                           <img
@@ -156,17 +150,17 @@ const HeaderLanding = () => {
                       </div>
                     </li>
                   </div>
-                  <div className="col-6">
-                    {/* <NavLink> */}
+                  <div className="col-6 col-lg-6 pb-3 p-lg-0">
                     <li className="nav-item link-dark ">
-                      <button
-                        className="buttonHeader fw-semibold"
-                        type="button"
-                        aria-expanded="false">
-                        Support
-                      </button>
+                      <Link to={"/feedback"}>
+                        <button
+                          className="buttonHeader fw-semibold w-100 text-decoration-none"
+                          type="button"
+                          aria-expanded="false">
+                          Support
+                        </button>
+                      </Link>
                     </li>
-                    {/* </NavLink> */}
                   </div>
                 </div>
               </ul>

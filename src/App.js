@@ -1,44 +1,49 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "./App.css";
-import LandingPageJumbotron from "./pages/Landing Pages/Jumbotron/LandingPageJumbotron";
-import DownloadApp from "./pages/Landing Pages/DownloadApp/DownloadApp";
-import FooterLanding from "./components/FooterLanding/FooterLanding";
+import MainLanding from "./pages/Landing Pages/mainLanding";
+import { Route, Routes, useNavigate } from "react-router-dom";
+import FeedbackPages from "./pages/Feedback Pages/FeedbackPages";
+import { Link, animateScroll as scroll } from "react-scroll";
 import HeaderLanding from "./components/Header/HeadearLanding";
-import CardHeader from "./components/Header/CardHeader";
-import MiniCardLanding from "./components/MiniCardLanding/MiniCardLanding";
-import bg from './assets/icons/Category.svg'
-
 function App() {
+  const navigate = useNavigate();
+  const onClick = () => {
+    navigate("/");
+    scroll.scrollToTop();
+  };
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer">
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-    <div style={{backgroundColor:'var(--Neutral-White-100)'}}>
-      <HeaderLanding/>
-      <LandingPageJumbotron/>
-      <div className="mb-5">
-        <MiniCardLanding/>
+    <>
+      <div
+        className="h-100 w-100"
+        style={{ backgroundColor: "var(--Neutral-White-100)" }}>
+        {/* <BrowserRouter> */}
+        <HeaderLanding
+          logoButton={
+            <>
+              <Link
+                to="/"
+                className="btn d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                onClick={onClick}>
+                {/* <NavLink to={"/"} className={"text-decoration-none"}> */}
+                <span
+                  className="fs-4 fw-bolder"
+                  style={{ color: "var(--primary-600)" }}>
+                  GoFit
+                </span>
+                {/* </NavLink> */}
+              </Link>
+            </>
+          }
+        />
+        <Routes>
+          <Route path="/" element={<MainLanding />} />
+          <Route path="/feedback" element={<FeedbackPages />} />
+        </Routes>
+        {/* </BrowserRouter> */}
       </div>
-      <DownloadApp/>
-      <div style={{marginTop:'20vh'}}>
-        <FooterLanding/>
-      </div>
-    </div>
+    </>
   );
 }
 

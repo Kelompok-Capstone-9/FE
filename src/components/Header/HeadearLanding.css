@@ -1,9 +1,11 @@
 .cardHeader {
   background-color: var(--Neutral-White-0);
 }
+
 .cardHeader:hover {
   background-color: var(--primary-200);
 }
+
 .cardHeader:active {
   background-color: var(--primary-400);
 }
@@ -11,10 +13,10 @@
 .buttonHeader {
   background-color: transparent;
   border: none;
-  width: 7vw;
   padding: 0.5vw;
   border-radius: 8px;
 }
+
 .buttonHeader:hover {
   background-color: var(--primary-100);
 }
@@ -22,3 +24,32 @@
 .buttonHeader:active {
   background-color: var(--primary-400);
 }
+
+
+
+
+.dropdownHeader {
+  width: 35vw;
+}
+/* @media (min-width: 576px) {
+  .buttonHeader {
+    background-color: transparent;
+    border: none;
+    width: 50vw;
+    padding: 0.5vw;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+} */
+
