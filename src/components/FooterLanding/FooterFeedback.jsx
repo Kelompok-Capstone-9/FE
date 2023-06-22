@@ -16,7 +16,7 @@ const FooterFeedback = () => {
           <div className="col-12">
             <p className="fs-1 fw-bolder">Our other social media</p>
           </div>
-          <div className="col-6 socialmedia-icn">
+          <div className="col-6 col-lg-12 socialmedia-icn">
             {/* <a href="/" > */}
             <img src={Imgfacebook} alt="" />
             {/* </a> */}
