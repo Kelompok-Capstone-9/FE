@@ -7,8 +7,10 @@
   padding: 25px 32px;
   gap: 14px;
 
-  width: 1255px;
-  height: 324px;
+  /* width: 1255px; */
+  width: 87%;
+  /* height: ; */
+  /* height: 324px; */
 
   /* Neutral-White/0 */
 
@@ -20,11 +22,37 @@
   border-radius: 10px;
 }
 
+.name-text {
+  margin-top: 25px;
+}
+
+.input-name {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 26px;
+  gap: 10px;
+
+  width: 1191px;
+
+  /* Neutral-White/0 */
+
+  background: #ffffff;
+  /* Neutral-Black/100 */
+
+  border: 1px solid #606060;
+  border-radius: 10px;
+}
+
 .feedback-text {
   margin-top: 25px;
 }
 
-.input-text {
+.input-comment {
   box-sizing: border-box;
 
   /* Auto layout */
@@ -89,4 +117,92 @@
 
 .popup-content img {
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .feedback-comment {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    padding: 25px 32px;
+    /* gap: 14px; */
+  
+    /* width: 1255px; */
+    margin-left: 6%;
+    width: 94%;
+    /* height: ; */
+    /* height: 324px; */
+  
+    /* Neutral-White/0 */
+  
+    background: #ffffff;
+    /* Shadow / 500 */
+  
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+      0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+    border-radius: 10px;
+  }
+
+  .name-text {
+    margin-top: 25px;
+  }
+  
+  .input-name {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding: 12px 26px;
+    gap: 10px;
+    /* margin-left: 900px; */
+  
+    width: 300px;
+  
+    /* Neutral-White/0 */
+  
+    background: #ffffff;
+    /* Neutral-Black/100 */
+  
+    border: 1px solid #606060;
+    border-radius: 10px;
+  }
+  
+  .feedback-text {
+    margin-top: 25px;
+  }
+  
+  .input-comment {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 12px 26px;
+    gap: 10px;
+    
+    /* margin-left: 900px; */
+    width: 300px;
+    height: 184px;
+  
+    /* Neutral-White/0 */
+  
+    background: #ffffff;
+    /* Neutral-Black/100 */
+  
+    border: 1px solid #606060;
+    border-radius: 10px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+
 }
