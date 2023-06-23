@@ -9,7 +9,7 @@ const FeedbackForm = () => {
   const [comments, setComments] = useState("");
   const [showPopup, setShowPopup] = useState(false);
 
-  const [feedback, setfeedback] = useState([]);
+  // const [feedback, setfeedback] = useState([]);
 
   // const dispatch = useDispatch()
   // const navigate = useNavigate()
