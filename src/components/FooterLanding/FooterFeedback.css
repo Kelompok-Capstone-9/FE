@@ -15,3 +15,15 @@
     transition: 0.4s;
 }
 
+@media (max-width: 768px) {
+    .socialmedia-icn {
+        margin-top: 4px;
+        margin-left: 25%;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
+}
+
+
+

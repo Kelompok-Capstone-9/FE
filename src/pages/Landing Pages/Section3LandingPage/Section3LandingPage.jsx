@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Section3LandingPage.css";
 
 import CardLandingPage from "../../../components/Card/CardLandingPage";
+import { NavLink } from "react-router-dom";
 
 const Section3LandingPage = () => {
   return (
