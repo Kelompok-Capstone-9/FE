@@ -32,7 +32,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"
@@ -50,7 +50,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"
@@ -68,7 +68,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"
@@ -90,7 +90,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"
@@ -108,7 +108,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"
@@ -126,7 +126,7 @@ const TestimoniCarousel = () => {
                   <div className="image-testimoni">
                     <img
                       src={
-                        "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                        "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
                       }
                       className="card-img-top-testimoni"
                       alt="Gambar"

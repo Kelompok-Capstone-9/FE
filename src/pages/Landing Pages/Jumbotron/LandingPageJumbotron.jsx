@@ -33,18 +33,10 @@ const LandingPageJumbotron = () => {
               </div>
               <div>
                 <button
-                  className="btn ps-lg-5 pe-lg-5 me-3"
+                  className="btn ps-lg-5 pe-lg-5 me-3 col-12"
                   style={{
                     backgroundColor: "var(--primary-500)",
                     color: "var(--primary-100)",
-                  }}>
-                  Log in
-                </button>
-                <button
-                  className="btn pe-lg-4 ps-lg-4"
-                  style={{
-                    color: "var(--primary-500)",
-                    borderColor: "var(--primary-500)",
                   }}>
                   Join Member
                 </button>
@@ -55,7 +47,7 @@ const LandingPageJumbotron = () => {
           <div className="col-md-6 p-0 jumbotron-right">
             <img
               src={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/gif-1.gif?alt=media&token=f371325e-ebb6-4743-8114-fda3bb17b639"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/gif-1.gif?alt=media&token=1a414ffd-ca3e-47f7-9ef9-ccc3e086a5d9"
               }
               alt="gif 1"
             />
@@ -98,7 +90,7 @@ const LandingPageJumbotron = () => {
           </h3>
           <img
             src={
-              "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/gif-2.gif?alt=media&token=ef971e99-737d-4af6-9da4-50a947c7af95"
+              "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/gif-2.gif?alt=media&token=7c16c3e6-944f-4f7e-841a-1b447436fdc4"
             }
             alt="gif2"
             style={{ width: "100%" }}

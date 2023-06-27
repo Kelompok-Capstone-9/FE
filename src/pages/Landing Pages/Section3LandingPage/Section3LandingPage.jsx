@@ -20,7 +20,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-1"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/woman-1730325%201.svg?alt=media&token=90a0a25b-70f2-4d88-81b6-41cd94d588da"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/woman-1730325%201.svg?alt=media&token=8b5c1184-c282-4720-9ad9-6c374842fe86"
               }
               title={"Membership"}
               alt={"card Membership"}
@@ -30,7 +30,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-2"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/fitness-1948837%201.svg?alt=media&token=db828400-f162-4d6f-b95e-757bfbf3144a"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/fitness-1948837%201.svg?alt=media&token=b185b108-f0e0-4106-9d54-5dbbb8134617"
               }
               title={"Offline Class"}
               alt={"card Offline Class"}
@@ -40,7 +40,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-3"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/full-shot-man-doing-yoga-mat%201.svg?alt=media&token=ca8f60bd-3252-4237-bf4c-58b8db6ce357"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/full-shot-man-doing-yoga-mat%201.svg?alt=media&token=d7e16b6c-2aea-43e0-882d-28592bcdf1f6"
               }
               title={"Online Class"}
               alt={"Card Online Class"}
@@ -50,7 +50,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-4"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/wellness-health-lifestyle-workout-graphic-word%201.svg?alt=media&token=d0c752f2-44d8-4a83-954c-014a8a8df693"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/wellness-health-lifestyle-workout-graphic-word%201.svg?alt=media&token=a69441e9-7b76-4521-bd54-b4b1be0c2523"
               }
               title={"Top News"}
               alt={"Card Top News"}
@@ -60,7 +60,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-5"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/close-up-treadmill-console-with-settings%201.svg?alt=media&token=667611c3-beaf-47b1-ab74-efc0c83344cd"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/close-up-treadmill-console-with-settings%201.svg?alt=media&token=1a5e9731-1947-4a4a-936f-3f1c4f4caeb7"
               }
               title={"Facilities"}
               alt={"card Facilities"}
@@ -70,7 +70,7 @@ const Section3LandingPage = () => {
             <CardLandingPage
               id={"card-landingpage-6"}
               imageUrl={
-                "https://firebasestorage.googleapis.com/v0/b/classy-3b1b1.appspot.com/o/fitness-woman-doing-yoga-with-mobile-app%201.svg?alt=media&token=e88a58d0-1ed6-4c8d-9e79-f33ee531ff77"
+                "https://firebasestorage.googleapis.com/v0/b/gofit-922c3.appspot.com/o/fitness-woman-doing-yoga-with-mobile-app%201.svg?alt=media&token=57f73f87-fc95-4347-8f1a-4ec73e729e90"
               }
               title={"Work Out Video"}
               alt={"Card Work Out Video"}
