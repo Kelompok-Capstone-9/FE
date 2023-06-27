@@ -1,5 +1,4 @@
 import React from "react";
-import animatedsupport from "../../../assets/gif/Animation.svg";
 import "./SupportSection1.css";
 
 const SupportSection1 = () => {
@@ -22,7 +21,12 @@ const SupportSection1 = () => {
           </div>
 
           <div className="col-md-6 p-0 jumbotron-right jumbo-hover d-none d-lg-block">
-            <img src={animatedsupport} alt="" />
+            <img
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/graphql-marketplace.appspot.com/o/Animation.svg?alt=media&token=0e923c2c-3d6b-4f4d-819b-21d740af00f7"
+              }
+              alt=""
+            />
           </div>
         </div>
       </div>
